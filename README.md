@@ -39,3 +39,20 @@ function Starpatten(n) {
     
 }
 Starpatten(6)
+
+--------------------------------------------------
+
+function Starpatten(n) {
+    for (let i = 0; i < n; i++){
+        let stat = ""
+        for (let j = 0; j < n-i; j++){
+            stat=stat + '.'
+        }
+            for (let k = 0; k <i+1; k++){
+            stat=stat+ "*"
+        }
+        console.log(stat)
+    }
+    
+}
+Starpatten(6)
