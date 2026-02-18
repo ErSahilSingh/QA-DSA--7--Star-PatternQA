@@ -1,0 +1,1 @@
+# QA-DSA--7--Star-PatternQA
